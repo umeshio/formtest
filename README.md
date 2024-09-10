@@ -1,9 +1,12 @@
-# フォーム送信 e2eテスト
+# Cypress フォーム送信テスト
 
-## Cypress概要 & 参考
-Cypress[https://www.cypress.io/]
-Cypressでフォーム送信テスト[https://qiita.com/iwata-goq/items/de379c67a5ff03c097e5]
-保守性の高い書き方[https://future-architect.github.io/articles/20210428c/]
+[Cypress](https://www.cypress.io/)を使用したフォーム送信のe2eテスト雛形
+
+## 参考サイト
+Cypres：<https://www.cypress.io/>  
+フォーム送信テスト【Qiita】：<https://qiita.com/iwata-goq/items/de379c67a5ff03c097e5>  
+基礎構文【Qiita】：<https://qiita.com/n_takechi/items/7fb80a353505065502ef>  
+独自スクリプトとカプセル化：<https://future-architect.github.io/articles/20210428c/>  
 
 ## 使い方
 
@@ -13,8 +16,10 @@ Cypressでフォーム送信テスト[https://qiita.com/iwata-goq/items/de379c67
 4. テスト画面でテストしたいjsを選びテストする
 
 ## テストコードの書き方
-概要&参考サイトを参照。 
+参考サイトを参照。 
 
-## tips
+## Tips
 - 入力ステップをコメントアウトしてバリデーションが効いているかテストできる
-- supportディレクトリにjsを追加してオリジナルのコマンド登録できる[https://future-architect.github.io/articles/20210428c/]
+- supportディレクトリにjsを追加してオリジナルのコマンド登録できる  
+https://future-architect.github.io/articles/20210428c/
+- 条件分岐や、直前のテストの実行結果によるフローの取捨選択ができる
